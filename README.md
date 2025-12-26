@@ -71,7 +71,7 @@ Git will now be installed and the Helper Script can be Git cloned to your printe
 
 6. Clone the script:
 ```
-git clone --depth 1 https://github.com/Nik-oli/Creality-Helper-Script-K1-CFS.git /usr/data/helper-script
+git clone --depth 1 https://github.com/jcooms/Creality-Helper-Script-K1-CFS.git /usr/data/helper-script
 ```
 7. Run the script:
 ```
