@@ -31,11 +31,12 @@ The following modules have been tested on a K1 and seem to be working ok for me 
 - Klipper Gcode Shell Command  
 - KAMP (Modification has been made to `START_PRINT` gcode as found in the new CFS kit firmware.)
   (Purge routine split from `START_PRINT` macro to prevent the printer trying to purge prior to loading filament. Purge can be called by adding `ADAPT_PURGE_MOD` to the end of Slicer start gcode.)  
-- Save Z Offset Macros  
+- Save Z Offset Macros
 
 ---
 
 ## Known Issues / Workarounds for K1 Series CFS Firmware
+- There are issues with homeing when reprinting due to CrealityPrint, I have added "Disable Prepare" so homeing, adaptive bed mesh etc, will run each time regarless if this is set in CrealityPrint. This can be enabled through Fluidd. 
 
 ### Git is Broken  
 Git seems to be broken on the K1 series CFS upgrade kit firmware and as a result you will need to install it manually as follows...  
